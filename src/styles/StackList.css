@@ -1,0 +1,22 @@
+.StackList {
+    margin-top: 20px;
+}
+
+.StackList ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 5em;
+    gap: 1em;
+}
+
+.StackList ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.StackList ul li p {
+    margin: 0;
+    font-size: 13px;
+}

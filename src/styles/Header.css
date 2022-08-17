@@ -1,0 +1,28 @@
+.Header {
+    width: 100%;
+    background-color: rgba(10, 25, 47, 0.85);
+    height: 70px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow-header);
+    font-size: 13px;
+    color: white;
+}
+
+.Header_nav {
+    margin-left: auto;
+}
+
+.Header_nav a {
+    margin-right: 26px;
+}
+
+.Header_toCv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--textColor-special);
+    width: 85px;
+    height: 40px;
+}

@@ -1,0 +1,20 @@
+.Projects {
+    padding: 0 150px;
+}
+
+.Projects h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--textColor-primary);
+}
+
+.Projects_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Projects_container {
+    padding: 60px 0;
+
+}

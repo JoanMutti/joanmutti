@@ -1,0 +1,29 @@
+.Presentation {
+    padding: 40px 150px;
+}
+
+.Presentation_mono {
+    font-family: 'Fira Code', monospace;
+    color: var(--textColor-special);
+    font-size: 14px;
+}
+
+.Presentation_title {
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--textColor-primary);
+}
+
+.Presentation_subtitle {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--textColor-secondary);
+    width: 900px;
+}
+
+.Presentation_long {
+    font-size: 20px;
+    color: var(--textColor-normal);
+    width: 600px;
+    margin-top: 20px;
+}
