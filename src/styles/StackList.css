@@ -3,11 +3,11 @@
 }
 
 .StackList ul {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 5em;
-    gap: 1em;
+    display: grid;
+    gap: 8px;
+    width: 100%;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .StackList ul li {
