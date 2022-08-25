@@ -2,3 +2,135 @@
   background-color: var(--backgroundColor);
   min-height: 100vh;
 }
+
+* {
+  scroll-behavior: smooth;
+}
+
+.blur {
+  overflow: hidden;
+}
+
+body.blur #content>* {
+  filter: blur(5px) brightness(0.7);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 1080px) {
+  .Projects, .Presentation, .About {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .About_image {
+    max-width: 200px;
+  }
+
+  .line {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .Projects, .Presentation, .About {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .About_content {
+    flex-direction: column;
+  }
+
+  .About_image {
+    max-width: 250px;
+    margin: 50px auto;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .BigProject {
+    background-color: hsla(218, 58%, 16%, 0.3);
+    box-shadow: 0 10px 30px -15px var(--shadow-navy);
+
+  }
+
+  .BigProject_image {
+    grid-column: 1 / -1;
+    opacity: 0.25;
+    height: 100%;
+    overflow: hidden;
+    max-height: 350px;
+  }
+
+  .BigProject_image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .BigProject_title {
+    color: white;
+  }
+
+  .BigProject_info {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    grid-column: 1 / -1;
+    padding: 40px 40px 30px;
+    z-index: 5;
+    text-align: left;
+    background-color: var(--shadow-navy);
+    border: 1px solid var(--green);
+  }
+
+  .BigProject_stack {
+    justify-content: flex-start;
+  }
+
+  .BigProject_info a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  .BigProject_description {
+    padding: 20px 0px;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .Projects, .Presentation, .About {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .Projects .line {
+    display: none;
+  }
+
+  .Projects h2 {
+    white-space: normal;
+  }
+
+  .BigProject_info {
+    padding: 25px 25px 20px;
+  }
+
+
+}

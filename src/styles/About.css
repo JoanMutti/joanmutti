@@ -1,25 +1,31 @@
 .About {
     padding: 60px 150px;
     color: var(--textColor-normal);
+}
+
+.About_content {
     display: flex;
 }
 
 .About_data {
     max-width: 600px;
+    width: 100%;
 }
 
 .About_image {
-    margin: auto 0 auto auto;
     position: relative;
     border-radius: 8px;
     border: 3px solid var(--textColor-special);
+    margin: 0px 16px auto auto;
+    width: 100%;
+    max-width: 350px;
 }
 
 .About_image img {
     position: relative;
     top: -15px;
     right: -15px;
-    width: 350px;
+    width: 100%;
 }
 
 
@@ -32,6 +38,11 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.About_title h2 {
+    font-size: clamp(26px, 5vw, 32px);
+    white-space: nowrap;
 }
 
 .line {

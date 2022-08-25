@@ -4,9 +4,9 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   return (
-    <div className="Projects">
+    <section className="Projects" id="projects">
       <div className="Projects_header">
-        <h2>Algunos proyectos que he desarrollado</h2>
+        <h2>Algunos Proyectos Desarrollados</h2>
         <div className="line"></div>
       </div>
       <div className="Projects_container">
@@ -14,7 +14,7 @@ const Projects = () => {
         <BigProject />
         <BigProject />
       </div>
-    </div>
+    </section>
   );
 };
 

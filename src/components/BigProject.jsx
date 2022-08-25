@@ -7,7 +7,9 @@ const BigProject = ({ index }) => {
     <div className="BigProject">
       <div className="BigProject_info">
         <p className="BigProject_great">Proyecto Destacado</p>
-        <h4 className="BigProject_title">Futter</h4>
+        <a href="https://www.futter.cc" rel="noopener noreferrer" target="_blank" className="BigProject_title">
+          Futter
+        </a>
         <div className="BigProject_description">
           <p>
             Este es el primer proyecto que he desarrollado. El objetivo fue crear una web que brindara herramientas de estudio (notas en video, filtros por intereses, etc) a los recursos gratuitos de

@@ -4,8 +4,9 @@
 
 .Projects h2 {
     font-weight: 600;
-    font-size: 32px;
+    font-size: clamp(20px, 5vw, 32px);
     color: var(--textColor-primary);
+    white-space: nowrap;
 }
 
 .Projects_header {

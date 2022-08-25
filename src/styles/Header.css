@@ -12,9 +12,11 @@
 
 .Header_nav {
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
-.Header_nav a {
+.nav_item {
     margin-right: 26px;
 }
 
@@ -25,4 +27,8 @@
     border: 2px solid var(--textColor-special);
     width: 85px;
     height: 40px;
+}
+
+.nav_item:last-child {
+    margin: 0px;
 }
