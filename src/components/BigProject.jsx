@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import image from "../assets/futter.png";
 import "../styles/BigProject.css";
@@ -26,7 +27,7 @@ const BigProject = ({ index }) => {
         </div>
       </div>
       <div className="BigProject_image">
-        <a href="#" rel="noopener noreferrer" target="_blank"></a>
+        <a href="https://futter.cc" rel="noopener noreferrer" target="_blank"></a>
         <img src={image} alt="Imagen del proyecto" />
       </div>
     </div>
